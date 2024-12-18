@@ -81,6 +81,7 @@ jobs:
       run: |
         gcc program1.c -o program1.app
         gcc program2.c -o program2.app
+        gcc program3.c -o program2.app
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
