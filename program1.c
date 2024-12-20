@@ -17,7 +17,6 @@ void allocateMemory() {
 
 int main() {
     allocateMemory();
-    String pass = "testtesttest";
     // Memory leak as memory is not freed
     return 0;
 }
